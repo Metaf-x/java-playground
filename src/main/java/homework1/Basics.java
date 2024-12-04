@@ -1,15 +1,15 @@
 package homework1;
 
-public class Homework {
+public class Basics {
     public static void main(String[] args) {
 
-        Homework homework = new Homework();
+        Basics basics = new Basics();
 
-        homework.dividePositiveIntNumbers(42, 8);
-        homework.dividePositiveIntNumbers(42, 0);
-        homework.dividePositiveIntNumbers(42, 13);
+        basics.dividePositiveIntNumbers(42, 8);
+        basics.dividePositiveIntNumbers(42, 0);
+        basics.dividePositiveIntNumbers(42, 6);
 
-        homework.overflowDoubleExample();
+        basics.overflowDoubleExample();
     }
 
     void dividePositiveIntNumbers(int num1, int num2) {
