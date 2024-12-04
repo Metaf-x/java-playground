@@ -14,7 +14,7 @@ public class Basics {
 
     void dividePositiveIntNumbers(int num1, int num2) {
         if(num1 <= 0 || num2 <= 0) {
-            System.out.println("Hi mom!");
+            System.out.println("Stay Positive! :)");
         } else if (num1%num2 == 0) {
             System.out.println(num1 / num2);
         } else {
